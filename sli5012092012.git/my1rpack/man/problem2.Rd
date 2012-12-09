@@ -1,23 +1,27 @@
-\name{problem2}
+\name{Problem2}
 \alias{problem2}
 \docType{data}
-\title{problem 2}
-\description{The function generates statistics of number of medals for each country}
-\usage{problem2}
+\title{
+Medal Count For Winter Olympics 2011}
+\description{
+Count the Medal for winter olympics 2011
+}
+\usage{data(problem2)}
 \format{
-  A list-mode object ith 45 slots, each of which contains the overall
-  Gold, Silver, and Bronze medal counts:
-  \describe {
-    \item{\code{Gold}}{Awesome!}
-    \item{\code{Silver}}{Great!}
+  A list-mode object and each slot contains the overall Brozen, Gold and Silver medal counts:
+  \describe{
     \item{\code{Bronze}}{Good!}
+    \item{\code{Silver}}{Great?}
+    \item{\code{Gold}}{Awesome!}
   }
 }
+\details{Solution to homework2 problem2 for class 550400
 
-\details{}
+}
+\source{http://www.guardian.co.uk/news/datablog/2010/feb/11/winter-olympics-medals-by-country}
 
-\source{\url{http://www.guardian.co.uk/news/datablog/2010/feb/11/winter-olympics-medals-by-country}}
-
-\examples{problem2}
-
+\examples{
+data(problem2)
+## maybe str(problem2) ; plot(problem2) ...
+}
 \keyword{datasets}

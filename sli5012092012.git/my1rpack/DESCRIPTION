@@ -1,1 +1,9 @@
-Package:Type: PackageTitle:my1rpackVersion: 1.0Date: 2012-12-09Author: Shihong LiMaintainer: Shihong LiDescription: The package includes a function generating a plot for the specific function in a certain range and a function generating statistics of number of medals for each country.License: GPL-3
+Package: my1rpack
+Type: Package
+Title: my1rpack
+Version:1.0
+Date:2012-12-09
+Depends: tikzDevice
+Author: Shihong Li
+Maintainer:Shihong Li <sli50@jhu.edu>
+Description: The package includes a function generating a plot for the specific function in a certain range and a function generating statistics of number of medals for each country.License: GPL-3

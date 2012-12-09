@@ -1,4 +1,4 @@
-\name{my1rpack-package}
+\name{my1rpack}
 \alias{my1rpack-package}
 \alias{my1rpack}
 \docType{package}
@@ -26,7 +26,7 @@ License: \tab GPL-3\cr
 \keyword{ package }
 
 \examples{
-require(my1rpack)
-problem1('bmw1series', dnorm, c(-5, 5), 10, TRUE)
-problem2
+library(my1rpack)
+
+
 }
